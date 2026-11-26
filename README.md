@@ -30,7 +30,7 @@ cairo serve public/index.php
 Files under `public/` are served by Cairo (Go) and every other path goes to
 the kernel. Outside `cairo serve` (the console, PHP-FPM, your tests) the
 runtime is Symfony's own, so the same front controller and `bin/console` keep
-working everywhere. It needs a Cairo release newer than 0.5.0 (one with `Cairo\App::serve()`).
+working everywhere. It needs Cairo 0.6 or later (with `Cairo\App::serve()`).
 
 ## Options
 
